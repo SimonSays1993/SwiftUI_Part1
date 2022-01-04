@@ -31,10 +31,6 @@ struct CertificateView: View {
                 .frame(width: 300, height: 140, alignment: .top)
             
         }
-        .frame(width: 340, height: 220)
-        .background(Color.black)
-        .cornerRadius(20.0)
-        .shadow(radius: 20.0)
     }
 }
 
