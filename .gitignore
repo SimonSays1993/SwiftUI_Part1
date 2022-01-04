@@ -6,7 +6,7 @@
 *.mode1v3
 *.mode2v3
 *.perspectivev3
-**/.xcuserstate
+*.xcuserstate
 **/.DS_Store
 project.xcworkspace/
 xcuserdata/
