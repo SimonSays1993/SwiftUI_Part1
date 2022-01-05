@@ -11,6 +11,8 @@ struct ContentView: View {
     @State var show = false
     @State var viewState = CGSize.zero
     @State var showBottomCard = false
+    @State var bottomCardState = CGSize.zero
+    @State var showFull = false
     
     var body: some View {
         //We use ZStack to act as a layer underneath the card. Acts as background
@@ -82,11 +84,38 @@ struct ContentView: View {
                     }
                 )
             
+            Text("\(bottomCardState.height)")
+                .offset(y: -300)
+            
             BottomCardView()
                 //An offset of 1000 for why will hide the card completely
                 .offset(x: 0.0, y: showBottomCard ? 310.0 : 1000.0)
+                .offset(y: bottomCardState.height)
                 .blur(radius: show ? 20 : 0)
                 .animation(.timingCurve(0.2, 0.8, 0.2, 1, duration: 0.8))
+                .gesture(
+                    DragGesture().onChanged { value in
+                        self.bottomCardState = value.translation
+                        if self.showFull {
+                            self.bottomCardState.height += -250
+                        }
+                        if self.bottomCardState.height < -250 {
+                            self.bottomCardState.height = -250
+                        }
+                    }.onEnded { value in
+                        if self.bottomCardState.height > 105.0 {
+                            self.showBottomCard = false
+                        }
+                        
+                        if (self.bottomCardState.height < -100 && !self.showFull) || (self.bottomCardState.height < -175 && self.showFull) {
+                            self.bottomCardState.height = -250
+                            self.showFull = true
+                        } else {
+                            self.bottomCardState = .zero
+                            self.showFull = false
+                        }
+                    }
+                )
         }
     }
 }
