@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D1E117B278693850074A414 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E117A278693850074A414 /* MenuView.swift */; };
 		2D48BB0B277DF31C00A0C5E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D48BB0A277DF31C00A0C5E4 /* ContentView.swift */; };
 		2D48BB0D277DF31D00A0C5E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D48BB0C277DF31D00A0C5E4 /* Assets.xcassets */; };
 		2D48BB10277DF31D00A0C5E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D48BB0F277DF31D00A0C5E4 /* Preview Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D1E117A278693850074A414 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		2D48BB05277DF31C00A0C5E4 /* SwiftUI_Part1_DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Part1_DesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D48BB0A277DF31C00A0C5E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D48BB0C277DF31D00A0C5E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				2D48BB1B277E5FA200A0C5E4 /* BackCardView.swift */,
 				2D48BB1D2780D44100A0C5E4 /* TitleView.swift */,
 				2D48BB232783790100A0C5E4 /* BottomCardView.swift */,
+				2D1E117A278693850074A414 /* MenuView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D48BB2027835DC700A0C5E4 /* AppDelegate.swift in Sources */,
+				2D1E117B278693850074A414 /* MenuView.swift in Sources */,
 				2D48BB242783790100A0C5E4 /* BottomCardView.swift in Sources */,
 				2D48BB2227835DD900A0C5E4 /* SceneDelegate.swift in Sources */,
 				2D48BB0B277DF31C00A0C5E4 /* ContentView.swift in Sources */,

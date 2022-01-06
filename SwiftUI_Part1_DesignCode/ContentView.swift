@@ -84,9 +84,6 @@ struct ContentView: View {
                     }
                 )
             
-            Text("\(bottomCardState.height)")
-                .offset(y: -300)
-            
             BottomCardView()
                 //An offset of 1000 for why will hide the card completely
                 .offset(x: 0.0, y: showBottomCard ? 310.0 : 1000.0)
