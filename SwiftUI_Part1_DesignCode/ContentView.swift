@@ -85,8 +85,8 @@ struct ContentView: View {
                 )
             
             BottomCardView()
-                //An offset of 1000 for why will hide the card completely
-                .offset(x: 0.0, y: showBottomCard ? 310.0 : 1000.0)
+                //An offset of UIScreen.main.bounds.height for why will hide the card completely
+                .offset(x: 0.0, y: showBottomCard ? 310.0 : UIScreen.main.bounds.height)
                 .offset(y: bottomCardState.height)
                 .blur(radius: show ? 20 : 0)
                 .animation(.timingCurve(0.2, 0.8, 0.2, 1, duration: 0.8))
