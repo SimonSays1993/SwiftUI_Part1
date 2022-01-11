@@ -48,7 +48,7 @@ struct HomeView: View {
                     ForEach(sectionData) { item in
                         GeometryReader { geometry in
                             SectionView(section: item)
-                                .rotation3DEffect(Angle(degrees: geometry.frame(in: .global).minX) / -20,
+                                .rotation3DEffect(Angle(degrees: geometry.frame(in: .global).minX - 30) / -20,
                                                   axis: (x: 0, y: 10, z: 0))
                         }
                         .frame(width: 275, height: 275)
