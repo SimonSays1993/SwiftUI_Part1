@@ -12,6 +12,9 @@
 		2D3D2C962788731000B02FC0 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D2C952788731000B02FC0 /* AvatarView.swift */; };
 		2D3D2C982788751600B02FC0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D2C972788751600B02FC0 /* HomeView.swift */; };
 		2D3D2C9A27887E0300B02FC0 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D2C9927887E0300B02FC0 /* SectionView.swift */; };
+		2D3D2C9C278DA04000B02FC0 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D2C9B278DA04000B02FC0 /* UpdateList.swift */; };
+		2D3D2C9E278DA77000B02FC0 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D2C9D278DA77000B02FC0 /* UpdateDetail.swift */; };
+		2D3D2CA0278DADA800B02FC0 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D2C9F278DADA800B02FC0 /* UpdateStore.swift */; };
 		2D48BB0B277DF31C00A0C5E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D48BB0A277DF31C00A0C5E4 /* ContentView.swift */; };
 		2D48BB0D277DF31D00A0C5E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D48BB0C277DF31D00A0C5E4 /* Assets.xcassets */; };
 		2D48BB10277DF31D00A0C5E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D48BB0F277DF31D00A0C5E4 /* Preview Assets.xcassets */; };
@@ -29,6 +32,9 @@
 		2D3D2C952788731000B02FC0 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		2D3D2C972788751600B02FC0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2D3D2C9927887E0300B02FC0 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		2D3D2C9B278DA04000B02FC0 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
+		2D3D2C9D278DA77000B02FC0 /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		2D3D2C9F278DADA800B02FC0 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
 		2D48BB05277DF31C00A0C5E4 /* SwiftUI_Part1_DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Part1_DesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D48BB0A277DF31C00A0C5E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D48BB0C277DF31D00A0C5E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,6 +83,7 @@
 				2D48BB0E277DF31D00A0C5E4 /* Preview Content */,
 				2D48BB1F27835DC700A0C5E4 /* AppDelegate.swift */,
 				2D48BB2127835DD900A0C5E4 /* SceneDelegate.swift */,
+				2D3D2C9F278DADA800B02FC0 /* UpdateStore.swift */,
 			);
 			path = SwiftUI_Part1_DesignCode;
 			sourceTree = "<group>";
@@ -101,6 +108,8 @@
 				2D1E117A278693850074A414 /* MenuView.swift */,
 				2D3D2C952788731000B02FC0 /* AvatarView.swift */,
 				2D3D2C9927887E0300B02FC0 /* SectionView.swift */,
+				2D3D2C9B278DA04000B02FC0 /* UpdateList.swift */,
+				2D3D2C9D278DA77000B02FC0 /* UpdateDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -176,11 +185,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D48BB2027835DC700A0C5E4 /* AppDelegate.swift in Sources */,
+				2D3D2CA0278DADA800B02FC0 /* UpdateStore.swift in Sources */,
+				2D3D2C9C278DA04000B02FC0 /* UpdateList.swift in Sources */,
 				2D1E117B278693850074A414 /* MenuView.swift in Sources */,
 				2D48BB242783790100A0C5E4 /* BottomCardView.swift in Sources */,
 				2D3D2C962788731000B02FC0 /* AvatarView.swift in Sources */,
 				2D48BB2227835DD900A0C5E4 /* SceneDelegate.swift in Sources */,
 				2D3D2C982788751600B02FC0 /* HomeView.swift in Sources */,
+				2D3D2C9E278DA77000B02FC0 /* UpdateDetail.swift in Sources */,
 				2D3D2C94278724F900B02FC0 /* Home.swift in Sources */,
 				2D48BB0B277DF31C00A0C5E4 /* ContentView.swift in Sources */,
 				2D3D2C9A27887E0300B02FC0 /* SectionView.swift in Sources */,
